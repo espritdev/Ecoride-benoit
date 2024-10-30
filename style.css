@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #2F4F4F; /* Couleurs nature et écologiques */
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3CB371; /* Couleur verte douce */
+    padding: 10px 20px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin: 0 10px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #C8E6C9;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.search-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #3CB371;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #3CB371;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-btn:hover {
+    background-color: #2E8B57;
+}
+
+footer {
+    background-color: #2F4F4F;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
