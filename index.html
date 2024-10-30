@@ -22,8 +22,14 @@
     <main class="hero">
         <div class="search-container">
             <h1>Covoiturons pour un avenir vert</h1>
-            <input type="text" class="search-bar" placeholder="Où souhaitez-vous aller ?">
+            
+            <input type="text" name="departure_city" placeholder="Ville de départ" class="search-input">
+            <input type="text" name="arrival_city" placeholder="Ville d'arrivée" class="search-input">
+            <input type="date" name="departure_date" class="search-input" aria-label="Sélectionnez une date de départ">
+            <input type="time" name="departure_time" class="search-input" aria-label="Sélectionnez une heure de départ">
+            <input type="number" name="passengers" placeholder="Nombre de passagers" class="search-input" min="1" max="8">
             <button class="search-btn">Rechercher</button>
+                    
         </div>
     </main>
 
